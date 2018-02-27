@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioGroup
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:layout_height="match_parent">
+
+
+    <RadioButton
+        android:id="@+id/tv_font_size_big"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        style="@style/option_title"
+        android:tag="1"
+        android:text="大"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#ddd"
+        app:layout_constraintTop_toBottomOf="@+id/tv_font_size_big"
+        ></View>
+    <RadioButton
+        android:id="@+id/tv_font_size_normal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        style="@style/option_title"
+        android:tag="0"
+        android:text="普通"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#ddd"
+        app:layout_constraintTop_toBottomOf="@+id/tv_font_size_normal"
+        ></View>
+
+    <RadioButton
+        android:id="@+id/tv_font_size_small"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        style="@style/option_title"
+        android:tag="2"
+        android:text="小"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#ddd"
+        app:layout_constraintTop_toBottomOf="@+id/tv_font_size_small"
+        ></View>
+
+</RadioGroup>
+

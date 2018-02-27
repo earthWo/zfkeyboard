@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">library</string>
+    <string name="simple_ime">Simple IME</string>
+    <string name="subtype_en_US">English (US)</string>
+
+    <string name="keyboardview_keycode_alt">alt</string>
+    <string name="keyboardview_keycode_cancel">cencel</string>
+    <string name="keyboardview_keycode_delete">delete</string>
+    <string name="keyboardview_keycode_done">done</string>
+    <string name="keyboardview_keycode_mode_change">change</string>
+    <string name="keyboardview_keycode_shift">shift</string>
+    <string name="keyboardview_keycode_enter">enter</string>
+
+    <string name="symbol_q">？</string>
+    <string name="symbol_w">!</string>
+    <string name="symbol_e">/</string>
+    <string name="symbol_r">…</string>
+    <string name="symbol_t">\@</string>
+    <string name="symbol_y">:</string>
+    <string name="symbol_u">;</string>
+    <string name="symbol_i">&amp;</string>
+    <string name="symbol_o">^</string>
+    <string name="symbol_p">~</string>
+    <string name="symbol_a">\'</string>
+    <string name="symbol_s">\"</string>
+    <string name="symbol_d">(</string>
+    <string name="symbol_f">)</string>
+    <string name="symbol_g">*</string>
+    <string name="symbol_h">#</string>
+    <string name="symbol_j">%</string>
+    <string name="symbol_k">+</string>
+    <string name="symbol_l">-</string>
+    <string name="symbol_z">_</string>
+    <string name="symbol_x">=</string>
+    <string name="symbol_c">\</string>
+    <string name="symbol_v">、</string>
+    <string name="symbol_b">￥</string>
+    <string name="symbol_n">$</string>
+    <string name="symbol_m">₩</string>
+</resources>

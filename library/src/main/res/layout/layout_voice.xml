@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    android:background="@color/background"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <ImageView
+        android:id="@+id/iv_back"
+        android:layout_width="28dp"
+        android:layout_height="57.5dp"
+        android:src="@drawable/back_nomal"
+        android:padding="2dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:background="@drawable/shape_key_background_gray"
+        />
+
+
+    <TextView
+        android:id="@+id/tv_douhao"
+        android:layout_width="28dp"
+        android:layout_height="57.5dp"
+        android:layout_marginLeft="8dp"
+        android:text=","
+        android:tag="44"
+        android:gravity="center"
+        android:background="@drawable/shape_key_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/iv_back"/>
+
+    <TextView
+        android:id="@+id/tv_juhao"
+        android:layout_width="28dp"
+        android:layout_height="57.5dp"
+        android:layout_marginLeft="8dp"
+        android:text="."
+        android:tag="46"
+        android:gravity="center"
+        android:background="@drawable/shape_key_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/tv_douhao"/>
+
+    <TextView
+        android:id="@+id/tv_wenhao"
+        android:layout_width="28dp"
+        android:layout_height="57.5dp"
+        android:layout_marginLeft="8dp"
+        android:text="@string/symbol_q"
+        android:tag="63"
+        android:gravity="center"
+        android:background="@drawable/shape_key_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/tv_juhao"/>
+
+    <ImageView
+        android:id="@+id/iv_space"
+        android:layout_width="79dp"
+        android:layout_height="57.5dp"
+        android:src="@drawable/key_space"
+        android:padding="10dp"
+        android:layout_marginLeft="8dp"
+        android:background="@drawable/shape_key_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/tv_wenhao"/>
+
+
+    <ImageView
+        android:id="@+id/iv_delete"
+        android:layout_width="50dp"
+        android:layout_height="57.5dp"
+        android:src="@drawable/key_delete"
+        android:padding="10dp"
+        android:layout_marginLeft="8dp"
+        android:background="@drawable/shape_key_background_gray"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/iv_space"/>
+
+    <ImageView
+        android:id="@+id/iv_enter"
+        android:layout_width="50dp"
+        android:layout_height="57.5dp"
+        android:src="@drawable/key_gone"
+        android:padding="10dp"
+        android:layout_marginLeft="8dp"
+        android:background="@drawable/shape_key_background_gray"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/iv_delete"/>
+
+
+    <win.whitelife.library.VoiceView
+        android:id="@+id/vv_voice"
+        android:layout_width="match_parent"
+        app:layout_constraintBottom_toTopOf="@+id/iv_back"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="63dp"
+        android:text="触摸输入"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:background="@drawable/shape_voice_background"
+        >
+
+    </win.whitelife.library.VoiceView>
+
+
+</android.support.constraint.ConstraintLayout>
+

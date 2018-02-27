@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+          android:keyWidth="11.4%p"
+          android:horizontalGap="8dp"
+          android:verticalGap="8dp"
+          android:keyHeight="57.5dp"
+          >
+    <Row>
+        <Key android:codes="44" android:keyLabel="," />
+        <Key android:codes="46" android:keyLabel="."/>
+        <Key android:codes="63" android:keyLabel="@string/symbol_q"/>
+        <Key android:codes="33" android:keyLabel="!"/>
+        <Key android:codes="47"  android:keyLabel="/"/>
+        <Key android:codes="8230" android:keyLabel="…"/>
+    </Row>
+    <Row>
+        <Key android:codes="64" android:keyLabel="@string/symbol_t" />
+        <Key android:codes="58" android:keyLabel=":"/>
+        <Key android:codes="59" android:keyLabel=";"/>
+        <Key android:codes="38" android:keyLabel="@string/symbol_i"/>
+        <Key android:codes="94"  android:keyLabel="^"/>
+        <Key android:codes="126" android:keyLabel="~"/>
+    </Row>
+    <Row>
+        <Key android:codes="37" android:keyLabel="%" />
+        <Key android:codes="43" android:keyLabel="+"/>
+        <Key android:codes="45" android:keyLabel="-"/>
+        <Key android:codes="95" android:keyLabel="_"/>
+        <Key android:codes="61"  android:keyLabel="="/>
+        <Key android:codes="95" android:keyLabel="@string/symbol_q"/>
+    </Row>
+    <Row>
+        <Key android:codes="60" android:keyLabel="&lt;" />
+        <Key android:codes="62" android:keyLabel="&gt;"/>
+        <Key android:codes="123" android:keyLabel="{"/>
+        <Key android:codes="125" android:keyLabel="}"/>
+        <Key android:codes="91"  android:keyLabel="["/>
+        <Key android:codes="93" android:keyLabel="]"/>
+    </Row>
+</Keyboard>

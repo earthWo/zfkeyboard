@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="36dp"
+    android:layout_height="wrap_content">
+
+<win.whitelife.library.PopKeyboardView
+    android:id="@id/keyboardView"
+    android:layout_width="36dp"
+    android:layout_height="wrap_content"
+    app:keyBackground="@drawable/shape_key_background"
+    app:KeyTextColor="@color/key_text_color"
+    app:keyTextSize="23dp"
+    android:keyBackground="@drawable/shape_key_background"
+    app:keyBroadBackground="@color/background"
+    app:labelTextSize="15dp"
+    app:keyPreviewHeight="50dp"
+    app:popupLayout="@layout/layout_poplayout"
+    app:keyPreviewLayout="@layout/layout_key_preview"></win.whitelife.library.PopKeyboardView>
+
+</FrameLayout>

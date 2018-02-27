@@ -1,0 +1,53 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="win.whitelife.library">
+
+    <permission android:name="android.permission.BIND_INPUT_METHOD"></permission>
+
+    <!-- begin: baidu speech sdk  权限 -->
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- end: baidu speech sdk  权限 -->
+
+    <application>
+
+        <service
+            android:name=".ZFIme"
+            android:permission="android.permission.BIND_INPUT_METHOD"
+            >
+            <meta-data android:name="android.view.im"
+                       android:resource="@xml/method"/>
+            <intent-filter>
+                <action android:name="android.view.InputMethod" />
+            </intent-filter>
+        </service>
+
+
+        <activity android:name=".OptionActivity"></activity>
+        <activity android:name=".FontSizeActivity"></activity>
+        <activity android:name=".SkinActivity"></activity>
+
+        <meta-data
+            android:name="com.baidu.speech.APP_ID"
+            android:value="10856451" />
+        <meta-data
+            android:name="com.baidu.speech.API_KEY"
+            android:value="bfX1d6uwkInLoRrluHCywrb8" />
+        <meta-data
+            android:name="com.baidu.speech.SECRET_KEY"
+            android:value="9WtyxXNsOxaS5fBMNBw9G6v4F3ahVr2U" />
+
+        <service
+            android:name="com.baidu.speech.VoiceRecognitionService"
+            android:exported="false" />
+
+
+    </application>
+
+
+
+</manifest>
+
+
